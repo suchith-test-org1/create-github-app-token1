@@ -13,12 +13,12 @@ if (!process.env.GITHUB_REPOSITORY) {
 const appId = core.getInput("app_id");
 const privateKey = core.getInput("private_key");
 
-const repository = process.env.GITHUB_REPOSITORY;
+// const repository = process.env.GITHUB_REPOSITORY;
 
 main(
   appId,
   privateKey,
-  repository,
+  // repository,
   core,
   createAppAuth,
   request.defaults({

@@ -15063,7 +15063,7 @@ async function main(appId2, privateKey2, repository2, core2, createAppAuth2, req
   //     }
   //   }
   // );
-  const authentication = await request(
+  const authentication = await request2(
     "POST /app/installation/42048651/access_tokens",
     {
       headers: {
